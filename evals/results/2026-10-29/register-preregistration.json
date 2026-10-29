@@ -1,0 +1,39 @@
+{
+  "registered_before_readings": true,
+  "source": "https://unknown-dostoevsky.ru/files/journals/journal_24881.pdf",
+  "publication": "И. М. Дробышевская, Б. Н. Тихомиров. Неизвестный Достоевский. 2024;11(2):74–120. DOI 10.15393/j10.art.2024.7261",
+  "page": "PDF page 97, printed p.94, figure 5 and accompanying literal transcription",
+  "image_sha256": "e2b6b62ff8bfd825ee54665199bbdac29366bc587abe5f31d4d7ab10d475b39f",
+  "key_provenance": "Published diplomatic transcription; original image visually inspected. Latin i used typographically in printed transcription is represented as Cyrillic і. End-of-line word division joined in requested fields.",
+  "cases": [
+    {
+      "id": "groom_given_name",
+      "type": "given_name",
+      "reference": "Василій"
+    },
+    {
+      "id": "groom_patronymic",
+      "type": "patronymic",
+      "reference": "Христофоровъ"
+    },
+    {
+      "id": "groom_surname",
+      "type": "surname",
+      "reference": "Смирновъ"
+    },
+    {
+      "id": "groom_age",
+      "type": "age",
+      "reference": "29"
+    },
+    {
+      "id": "marriage_month_day",
+      "type": "date",
+      "reference": "Ноябрь 10"
+    }
+  ],
+  "normalization": "NFC; preserve historic spelling for names, join line-break divisions, output age digits only and month/day as month-name SPACE day-digits, without terminal punctuation. Date is a partial date; printed year is not assessed.",
+  "split": "All documents in register publication and all unknown writer groups excluded from skill snapshot. Reference library empty for this run.",
+  "rights": "Downloaded scholarly publication for local evaluation; redistribution of scan not established. Image will not be bundled. Report links source and records hash only.",
+  "model": "Fresh subagents inherit same parent model/effort; exact identifier/settings not exposed; no overrides."
+}

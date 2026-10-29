@@ -1,0 +1,36 @@
+{
+  "fields": [
+    {
+      "id": "groom_given_name",
+      "text": "Василій",
+      "confident": true
+    },
+    {
+      "id": "groom_patronymic",
+      "text": "Христофоровъ",
+      "confident": true
+    },
+    {
+      "id": "groom_surname",
+      "text": "Смирновъ",
+      "confident": true
+    },
+    {
+      "id": "groom_age",
+      "text": "29",
+      "confident": true
+    },
+    {
+      "id": "marriage_month_day",
+      "text": "Ноябрь 10",
+      "confident": true
+    }
+  ],
+  "notes": "Отчество разделено между строками: «Хри-» и «стофоровъ»; перенос соединён. Существенных сомнений в запрошенных полях нет.",
+  "modern_form": {
+    "given_name": "Василий",
+    "patronymic": "Христофорович",
+    "surname": "Смирнов"
+  },
+  "model_and_settings": "Точное обозначение модели и настройки недоступны."
+}

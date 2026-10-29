@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "strekoza-1880-salutation",
+  "kind": "manuscript",
+  "document_id": "strekoza-letter-1880-01-20",
+  "writer_id": null,
+  "date": {
+    "from": 1880,
+    "to": 1880,
+    "basis": "Source catalogue date"
+  },
+  "document_type": "editorial letter",
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Letter_to_Chekhov_from_Strekoza_1880.jpg",
+    "title": "Letter to Chekhov from Strekoza, 20 January 1880",
+    "holding_institution": "Not specified by Commons; reproduction source apchekhov.ru/books/item/f00/s00/z0000025/st003.shtml",
+    "page": "Single reproduced page"
+  },
+  "image": {
+    "path": "samples/pages/strekoza-1880-letter.jpg",
+    "sha256": "bf15927afbcbe05c80a7efae9972b9b58664748ac775408cc893cd044022f2be",
+    "width": 730,
+    "height": 887
+  },
+  "region": {
+    "units": "pixels",
+    "xywh": [
+      270,
+      330,
+      410,
+      125
+    ]
+  },
+  "transcription": {
+    "literal": "Милостивый Государь!",
+    "provenance": "Initial Codex visual reading, then explicitly confirmed by denisavr on 2026-10-29. Verification applies only to the recorded region."
+  },
+  "review": {
+    "status": "verified",
+    "reviewer": "denisavr (repository maintainer)",
+    "date": "2026-10-29",
+    "method": "Human visual review of enlarged contextual crop; explicitly confirmed literal text, capitalization and punctuation in development session."
+  },
+  "uncertainties": [],
+  "rights": {
+    "status": "public-domain",
+    "basis_url": "https://commons.wikimedia.org/wiki/File:Letter_to_Chekhov_from_Strekoza_1880.jpg",
+    "attribution": "Letter to Chekhov from Strekoza, 20 January 1880; image via Wikimedia Commons; see THIRD_PARTY_NOTICES.md",
+    "modifications": "None; original downloaded page retained; region specified as coordinates"
+  },
+  "split": "reference"
+}

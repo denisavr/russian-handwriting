@@ -1,0 +1,97 @@
+{
+  "condition": "baseline",
+  "cases": [
+    {
+      "id": "region-1",
+      "reference": "я я я я",
+      "prediction": "я я я я",
+      "confident": false,
+      "illegible_reference_characters": 0,
+      "entities": []
+    },
+    {
+      "id": "region-2",
+      "reference": "Милостивый Государь!",
+      "prediction": "Милостивый Государь!",
+      "confident": false,
+      "illegible_reference_characters": 0,
+      "entities": []
+    },
+    {
+      "id": "groom_given_name",
+      "reference": "Василій",
+      "prediction": "Василій",
+      "confident": true,
+      "illegible_reference_characters": 0,
+      "entities": [
+        {
+          "type": "given_name",
+          "reference": "Василій",
+          "prediction": "Василій",
+          "confident": true
+        }
+      ]
+    },
+    {
+      "id": "groom_patronymic",
+      "reference": "Христофоровъ",
+      "prediction": "Христофоровъ",
+      "confident": true,
+      "illegible_reference_characters": 0,
+      "entities": [
+        {
+          "type": "patronymic",
+          "reference": "Христофоровъ",
+          "prediction": "Христофоровъ",
+          "confident": true
+        }
+      ]
+    },
+    {
+      "id": "groom_surname",
+      "reference": "Смирновъ",
+      "prediction": "Смирновъ",
+      "confident": true,
+      "illegible_reference_characters": 0,
+      "entities": [
+        {
+          "type": "surname",
+          "reference": "Смирновъ",
+          "prediction": "Смирновъ",
+          "confident": true
+        }
+      ]
+    },
+    {
+      "id": "groom_age",
+      "reference": "29",
+      "prediction": "29",
+      "confident": true,
+      "illegible_reference_characters": 0,
+      "entities": [
+        {
+          "type": "age",
+          "reference": "29",
+          "prediction": "29",
+          "confident": true
+        }
+      ]
+    },
+    {
+      "id": "marriage_month_day",
+      "reference": "Ноябрь 10",
+      "prediction": "Ноябрь 10",
+      "confident": true,
+      "illegible_reference_characters": 0,
+      "entities": [
+        {
+          "type": "date",
+          "reference": "Ноябрь 10",
+          "prediction": "Ноябрь 10",
+          "confident": true
+        }
+      ]
+    }
+  ],
+  "notes": "Frozen outputs of fresh model-inherited agents; no overrides. Exact model/settings not exposed. Cases 1–2 contain uncertainty notation exactly as returned. Register outputs are identical in both conditions."
+}

@@ -1,0 +1,97 @@
+{
+  "cases": 7,
+  "reference_characters": 65,
+  "edits": 0,
+  "cer": 0.0,
+  "confident_cases": 5,
+  "confident_case_errors": 0,
+  "confident_case_error_rate": 0.0,
+  "illegible_reference_characters": 0,
+  "illegible_share": 0.0,
+  "entities": {
+    "given_name": {
+      "total": 1,
+      "correct": 1,
+      "confident": 1,
+      "confident_errors": 0,
+      "exact_accuracy": 1.0,
+      "confident_error_rate": 0.0
+    },
+    "patronymic": {
+      "total": 1,
+      "correct": 1,
+      "confident": 1,
+      "confident_errors": 0,
+      "exact_accuracy": 1.0,
+      "confident_error_rate": 0.0
+    },
+    "surname": {
+      "total": 1,
+      "correct": 1,
+      "confident": 1,
+      "confident_errors": 0,
+      "exact_accuracy": 1.0,
+      "confident_error_rate": 0.0
+    },
+    "age": {
+      "total": 1,
+      "correct": 1,
+      "confident": 1,
+      "confident_errors": 0,
+      "exact_accuracy": 1.0,
+      "confident_error_rate": 0.0
+    },
+    "date": {
+      "total": 1,
+      "correct": 1,
+      "confident": 1,
+      "confident_errors": 0,
+      "exact_accuracy": 1.0,
+      "confident_error_rate": 0.0
+    }
+  },
+  "per_case": [
+    {
+      "id": "region-1",
+      "edits": 0,
+      "reference_characters": 7,
+      "cer": 0.0
+    },
+    {
+      "id": "region-2",
+      "edits": 0,
+      "reference_characters": 20,
+      "cer": 0.0
+    },
+    {
+      "id": "groom_given_name",
+      "edits": 0,
+      "reference_characters": 7,
+      "cer": 0.0
+    },
+    {
+      "id": "groom_patronymic",
+      "edits": 0,
+      "reference_characters": 12,
+      "cer": 0.0
+    },
+    {
+      "id": "groom_surname",
+      "edits": 0,
+      "reference_characters": 8,
+      "cer": 0.0
+    },
+    {
+      "id": "groom_age",
+      "edits": 0,
+      "reference_characters": 2,
+      "cer": 0.0
+    },
+    {
+      "id": "marriage_month_day",
+      "edits": 0,
+      "reference_characters": 9,
+      "cer": 0.0
+    }
+  ]
+}

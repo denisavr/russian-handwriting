@@ -1,0 +1,30 @@
+{
+  "fields": [
+    {
+      "id": "groom_given_name",
+      "text": "Василій",
+      "confident": true
+    },
+    {
+      "id": "groom_patronymic",
+      "text": "Христофоровъ",
+      "confident": true
+    },
+    {
+      "id": "groom_surname",
+      "text": "Смирновъ",
+      "confident": true
+    },
+    {
+      "id": "groom_age",
+      "text": "29",
+      "confident": true
+    },
+    {
+      "id": "marriage_month_day",
+      "text": "Ноябрь 10",
+      "confident": true
+    }
+  ],
+  "notes": "Отчество разделено переносом: «Хри- / стофоровъ». Современная форма: Василий Христофоров Смирнов. Существенных сомнений в указанных полях нет. Точная модель и настройки: недоступны."
+}

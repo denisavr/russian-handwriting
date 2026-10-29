@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "copybook-1860-prose",
+  "kind": "copybook",
+  "document_id": "copybook-1860",
+  "writer_id": null,
+  "date": {
+    "from": 1860,
+    "to": 1860,
+    "basis": "Source catalogue date"
+  },
+  "document_type": "copybook",
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Прописи_для_скорописного_почерка,_1860.pdf",
+    "title": "Прописи для скорописного почерка, 2-е исправленное издание, 1860",
+    "holding_institution": "National Library of Russia / НЭБ 000200_000018_RU_NLR_BIBL_A_010983729",
+    "page": "PDF page 11; printed leaf 10"
+  },
+  "image": {
+    "path": "samples/pages/copybook-1860-p11.jpg",
+    "sha256": "f3d7b0e325f42a340e843159af512ade81ecc230bcfac595dcf014012f4293e0",
+    "width": 1920,
+    "height": 1358
+  },
+  "region": {
+    "units": "pixels",
+    "xywh": [
+      30,
+      210,
+      1760,
+      850
+    ]
+  },
+  "transcription": {
+    "literal": "Рано ложиться спать и рано\nвставать очень здорово. Нужно\nсодержать себя чисто; отъ нечистоты\nпроисходятъ разныя болѣзни, отъ\nкоторыхъ много людей умираетъ.",
+    "provenance": "Initial Codex visual reading; full five-line literal passage explicitly confirmed by denisavr on 2026-10-29.",
+    "modern": "Рано ложиться спать и рано\nвставать очень здорово. Нужно\nсодержать себя чисто; от нечистоты\nпроисходят разные болезни, от\nкоторых много людей умирает."
+  },
+  "review": {
+    "status": "verified",
+    "reviewer": "denisavr (repository maintainer)",
+    "date": "2026-10-29",
+    "method": "Human visual review of full five-line passage; explicitly confirmed historical letters, terminal hard signs, punctuation and wording in development session."
+  },
+  "uncertainties": [],
+  "rights": {
+    "status": "public-domain",
+    "basis_url": "https://commons.wikimedia.org/wiki/File:Прописи_для_скорописного_почерка,_1860.pdf",
+    "attribution": "Прописи для скорописного почерка, 2-е исправленное издание, 1860; image via Wikimedia Commons; see THIRD_PARTY_NOTICES.md",
+    "modifications": "None; original downloaded page retained; region specified as coordinates"
+  },
+  "split": "reference"
+}

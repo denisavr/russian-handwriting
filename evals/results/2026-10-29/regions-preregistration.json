@@ -1,0 +1,25 @@
+{
+  "status": "preregistered-before-new-readings",
+  "date": "2026-10-29",
+  "cases": [
+    {
+      "id": "region-1",
+      "reference": "я я я я",
+      "entity_types": []
+    },
+    {
+      "id": "region-2",
+      "reference": "Милостивый Государь!",
+      "entity_types": []
+    }
+  ],
+  "reference_provenance": "Explicit denisavr visual confirmation 2026-10-29",
+  "split": "Both source documents withheld in full from skill evaluation snapshot, including all images and records. No same-hand reference available.",
+  "normalization": "NFC and LF only. Four separate letters in region-1 must be separated by one space. No newline at ends of returned literal strings.",
+  "limits": [
+    "Two short regions only",
+    "No proper-name/date/age entities",
+    "Public examples may appear in pretraining",
+    "Exact model identifier unavailable; both agents inherit parent model with no overrides"
+  ]
+}

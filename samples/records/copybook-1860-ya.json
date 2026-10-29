@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "copybook-1860-ya",
+  "kind": "copybook",
+  "document_id": "copybook-1860",
+  "writer_id": null,
+  "date": {
+    "from": 1860,
+    "to": 1860,
+    "basis": "Source catalogue date"
+  },
+  "document_type": "copybook",
+  "source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Прописи_для_скорописного_почерка,_1860.pdf",
+    "title": "Прописи для скорописного почерка, 2-е исправленное издание, 1860",
+    "holding_institution": "National Library of Russia / НЭБ 000200_000018_RU_NLR_BIBL_A_010983729",
+    "page": "PDF page 6; printed leaf 5"
+  },
+  "image": {
+    "path": "samples/pages/copybook-1860-p06.jpg",
+    "sha256": "4c3172e017ad21963519deaa1382808cd059649cd7611459e11f249c8708bd00",
+    "width": 1920,
+    "height": 1358
+  },
+  "region": {
+    "units": "pixels",
+    "xywh": [
+      50,
+      870,
+      400,
+      120
+    ]
+  },
+  "transcription": {
+    "literal": "я я я я",
+    "provenance": "Initial Codex visual reading, then explicitly confirmed by denisavr on 2026-10-29. Verification applies only to the recorded region."
+  },
+  "review": {
+    "status": "verified",
+    "reviewer": "denisavr (repository maintainer)",
+    "date": "2026-10-29",
+    "method": "Human visual review of enlarged contextual crop; explicitly confirmed literal text, capitalization and punctuation in development session."
+  },
+  "uncertainties": [],
+  "rights": {
+    "status": "public-domain",
+    "basis_url": "https://commons.wikimedia.org/wiki/File:Прописи_для_скорописного_почерка,_1860.pdf",
+    "attribution": "Прописи для скорописного почерка, 2-е исправленное издание, 1860; image via Wikimedia Commons; see THIRD_PARTY_NOTICES.md",
+    "modifications": "None; original downloaded page retained; region specified as coordinates"
+  },
+  "split": "reference"
+}

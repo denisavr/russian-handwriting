@@ -13,3 +13,28 @@ Links in `references/sources.md` do not sublicense the linked materials. No thir
 For each future bundled item record the original URL, author/holding institution, date, identifier/page, applicable license or public-domain basis, required attribution and modifications. Keep restricted items outside the repository and link to their lawful source.
 
 The root MIT License applies to the project's original instructions, documentation and code, not automatically to outside images, datasets or models.
+
+## Development library added after 0.1.0
+
+- `samples/pages/copybook-1860-p03.jpg` , `copybook-1860-p06.jpg` and `copybook-1860-p11.jpg`:
+  *Прописи для скорописного почерка*, unknown author, second corrected edition,
+  published by Лермонтов и К°, Saint Petersburg, 1860. National Library of Russia,
+  НЭБ identifier `000200_000018_RU_NLR_BIBL_A_010983729`.
+  [Commons source and rights](https://commons.wikimedia.org/wiki/File:Прописи_для_скорописного_почерка,_1860.pdf),
+  revision 1247287690, checked 2026-10-29, marks PD-RusEmpire and US expired copyright.
+  Downloaded 1920px JPEG derivatives of PDF pages 3, 6 and 11; no image modifications.
+  Page 3 is a contextual pen-stroke exercise, not a transcribed sample.
+- `samples/pages/strekoza-1880-letter.jpg`: letter from the editorial office of
+  *Стрекоза* to Anton Chekhov, 20 January 1880. Commons attributes the author to
+  И. Василевский; the hand has not been independently attributed by this project.
+  [Commons source and rights](https://commons.wikimedia.org/wiki/File:Letter_to_Chekhov_from_Strekoza_1880.jpg),
+  revision 1034486044, checked 2026-10-29, marks public domain, PD-RusEmpire and
+  US expired copyright. Commons uploader Ctac, 2019; original reproduction linked
+  there to apchekhov.ru. Original 730×887 JPEG retained unchanged.
+
+These historical images are distributed on the cited public-domain bases, separately
+from the MIT-licensed project code and documentation. All three recorded regions were visually verified by repository maintainer denisavr
+on 2026-10-29; that review covers only their literal text, not entire source pages. Rights metadata describes the sources' stated bases, not a universal
+legal determination for every jurisdiction.
+
+The current review status of the prose region on PDF page 11 is recorded separately in its sample JSON.
