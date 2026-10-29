@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+/AGENTS.md
+
+# Case data belongs outside this checkout. Ignore rules are not a privacy audit.
+/cases/
+/private/
+/scans/
+/evals/local/
