@@ -1,0 +1,709 @@
+{
+  "status": "Observed improvement on a small private target set; not a population accuracy estimate.",
+  "candidate": "0.3.0 candidate05, optional local CRNN-CTC",
+  "fresh_tests": {
+    "name_fields": {
+      "unique_fields": 4,
+      "documents": 1,
+      "runs": [
+        {
+          "without_skill": {
+            "summary": {
+              "fields": 4,
+              "correct": 3,
+              "reference_characters": 28,
+              "edits": 4,
+              "literal_reference_characters": 0,
+              "literal_edits": 0,
+              "confident": 2,
+              "confident_errors": 0,
+              "uncertain_correct": 1,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.14285714285714285,
+              "literal_cer": null,
+              "field_accuracy": 0.75,
+              "confident_error_rate": 0.0,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "given_name": {
+                "total": 2,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 0.5
+              },
+              "surname": {
+                "total": 1,
+                "correct": 1,
+                "confident": 0,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "patronymic": {
+                "total": 1,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "with_skill": {
+            "summary": {
+              "fields": 4,
+              "correct": 4,
+              "reference_characters": 28,
+              "edits": 0,
+              "literal_reference_characters": 0,
+              "literal_edits": 0,
+              "confident": 4,
+              "confident_errors": 0,
+              "uncertain_correct": 0,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.0,
+              "literal_cer": null,
+              "field_accuracy": 1.0,
+              "confident_error_rate": 0.0,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "given_name": {
+                "total": 2,
+                "correct": 2,
+                "confident": 2,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "surname": {
+                "total": 1,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "patronymic": {
+                "total": 1,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          }
+        },
+        {
+          "without_skill": {
+            "summary": {
+              "fields": 4,
+              "correct": 2,
+              "reference_characters": 28,
+              "edits": 9,
+              "literal_reference_characters": 0,
+              "literal_edits": 0,
+              "confident": 3,
+              "confident_errors": 1,
+              "uncertain_correct": 0,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.32142857142857145,
+              "literal_cer": null,
+              "field_accuracy": 0.5,
+              "confident_error_rate": 0.3333333333333333,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "given_name": {
+                "total": 2,
+                "correct": 1,
+                "confident": 2,
+                "confident_errors": 1,
+                "accuracy": 0.5
+              },
+              "surname": {
+                "total": 1,
+                "correct": 0,
+                "confident": 0,
+                "confident_errors": 0,
+                "accuracy": 0.0
+              },
+              "patronymic": {
+                "total": 1,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "with_skill": {
+            "summary": {
+              "fields": 4,
+              "correct": 4,
+              "reference_characters": 28,
+              "edits": 0,
+              "literal_reference_characters": 0,
+              "literal_edits": 0,
+              "confident": 3,
+              "confident_errors": 0,
+              "uncertain_correct": 1,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.0,
+              "literal_cer": null,
+              "field_accuracy": 1.0,
+              "confident_error_rate": 0.0,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "given_name": {
+                "total": 2,
+                "correct": 2,
+                "confident": 2,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "surname": {
+                "total": 1,
+                "correct": 1,
+                "confident": 0,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "patronymic": {
+                "total": 1,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    "numeric_fields": {
+      "unique_fields": 3,
+      "documents": 1,
+      "runs": [
+        {
+          "without_skill": {
+            "summary": {
+              "fields": 3,
+              "correct": 2,
+              "reference_characters": 8,
+              "edits": 1,
+              "literal_reference_characters": 8,
+              "literal_edits": 1,
+              "confident": 1,
+              "confident_errors": 1,
+              "uncertain_correct": 2,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.125,
+              "literal_cer": 0.125,
+              "field_accuracy": 0.6666666666666666,
+              "confident_error_rate": 1.0,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "date": {
+                "total": 2,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 1,
+                "accuracy": 0.5
+              },
+              "age": {
+                "total": 1,
+                "correct": 1,
+                "confident": 0,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "with_skill": {
+            "summary": {
+              "fields": 3,
+              "correct": 2,
+              "reference_characters": 8,
+              "edits": 1,
+              "literal_reference_characters": 8,
+              "literal_edits": 1,
+              "confident": 1,
+              "confident_errors": 1,
+              "uncertain_correct": 2,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.125,
+              "literal_cer": 0.125,
+              "field_accuracy": 0.6666666666666666,
+              "confident_error_rate": 1.0,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "date": {
+                "total": 2,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 1,
+                "accuracy": 0.5
+              },
+              "age": {
+                "total": 1,
+                "correct": 1,
+                "confident": 0,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    "earlier_period_names_and_ages": {
+      "unique_fields": 11,
+      "documents": 1,
+      "runs": [
+        {
+          "without_skill": {
+            "summary": {
+              "fields": 11,
+              "correct": 10,
+              "reference_characters": 37,
+              "edits": 1,
+              "literal_reference_characters": 12,
+              "literal_edits": 0,
+              "confident": 8,
+              "confident_errors": 1,
+              "uncertain_correct": 3,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.02702702702702703,
+              "literal_cer": 0.0,
+              "field_accuracy": 0.9090909090909091,
+              "confident_error_rate": 0.125,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "given_name": {
+                "total": 3,
+                "correct": 3,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "patronymic": {
+                "total": 1,
+                "correct": 1,
+                "confident": 0,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "surname": {
+                "total": 1,
+                "correct": 0,
+                "confident": 1,
+                "confident_errors": 1,
+                "accuracy": 0.0
+              },
+              "age": {
+                "total": 6,
+                "correct": 6,
+                "confident": 6,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "with_skill": {
+            "summary": {
+              "fields": 11,
+              "correct": 11,
+              "reference_characters": 37,
+              "edits": 0,
+              "literal_reference_characters": 12,
+              "literal_edits": 0,
+              "confident": 9,
+              "confident_errors": 0,
+              "uncertain_correct": 2,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.0,
+              "literal_cer": 0.0,
+              "field_accuracy": 1.0,
+              "confident_error_rate": 0.0,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "given_name": {
+                "total": 3,
+                "correct": 3,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "patronymic": {
+                "total": 1,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "surname": {
+                "total": 1,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "age": {
+                "total": 6,
+                "correct": 6,
+                "confident": 6,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          }
+        },
+        {
+          "without_skill": {
+            "summary": {
+              "fields": 11,
+              "correct": 9,
+              "reference_characters": 37,
+              "edits": 4,
+              "literal_reference_characters": 12,
+              "literal_edits": 0,
+              "confident": 8,
+              "confident_errors": 0,
+              "uncertain_correct": 1,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.10810810810810811,
+              "literal_cer": 0.0,
+              "field_accuracy": 0.8181818181818182,
+              "confident_error_rate": 0.0,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "given_name": {
+                "total": 3,
+                "correct": 2,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 0.6666666666666666
+              },
+              "patronymic": {
+                "total": 1,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "surname": {
+                "total": 1,
+                "correct": 0,
+                "confident": 0,
+                "confident_errors": 0,
+                "accuracy": 0.0
+              },
+              "age": {
+                "total": 6,
+                "correct": 6,
+                "confident": 6,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "with_skill": {
+            "summary": {
+              "fields": 11,
+              "correct": 11,
+              "reference_characters": 37,
+              "edits": 0,
+              "literal_reference_characters": 12,
+              "literal_edits": 0,
+              "confident": 8,
+              "confident_errors": 0,
+              "uncertain_correct": 3,
+              "abstained_fields": 0,
+              "abstained_reference_characters": 0,
+              "content_cer": 0.0,
+              "literal_cer": 0.0,
+              "field_accuracy": 1.0,
+              "confident_error_rate": 0.0,
+              "whole_field_abstention_character_share": 0.0
+            },
+            "categories": {
+              "given_name": {
+                "total": 3,
+                "correct": 3,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "patronymic": {
+                "total": 1,
+                "correct": 1,
+                "confident": 1,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "surname": {
+                "total": 1,
+                "correct": 1,
+                "confident": 0,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              },
+              "age": {
+                "total": 6,
+                "correct": 6,
+                "confident": 6,
+                "confident_errors": 0,
+                "accuracy": 1.0
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "previously_used_regression_set": {
+    "unique_fields": 14,
+    "runs": [
+      {
+        "without_skill": {
+          "summary": {
+            "fields": 14,
+            "correct": 12,
+            "reference_characters": 100,
+            "edits": 9,
+            "literal_reference_characters": 0,
+            "literal_edits": 0,
+            "confident": 8,
+            "confident_errors": 1,
+            "uncertain_correct": 5,
+            "abstained_fields": 0,
+            "abstained_reference_characters": 0,
+            "content_cer": 0.09,
+            "literal_cer": null,
+            "field_accuracy": 0.8571428571428571,
+            "confident_error_rate": 0.125,
+            "whole_field_abstention_character_share": 0.0
+          },
+          "categories": {
+            "given_name": {
+              "total": 9,
+              "correct": 7,
+              "confident": 5,
+              "confident_errors": 1,
+              "accuracy": 0.7777777777777778
+            },
+            "patronymic": {
+              "total": 4,
+              "correct": 4,
+              "confident": 3,
+              "confident_errors": 0,
+              "accuracy": 1.0
+            },
+            "surname": {
+              "total": 1,
+              "correct": 1,
+              "confident": 0,
+              "confident_errors": 0,
+              "accuracy": 1.0
+            }
+          }
+        },
+        "with_skill": {
+          "summary": {
+            "fields": 14,
+            "correct": 12,
+            "reference_characters": 100,
+            "edits": 12,
+            "literal_reference_characters": 0,
+            "literal_edits": 0,
+            "confident": 10,
+            "confident_errors": 0,
+            "uncertain_correct": 2,
+            "abstained_fields": 0,
+            "abstained_reference_characters": 0,
+            "content_cer": 0.12,
+            "literal_cer": null,
+            "field_accuracy": 0.8571428571428571,
+            "confident_error_rate": 0.0,
+            "whole_field_abstention_character_share": 0.0
+          },
+          "categories": {
+            "given_name": {
+              "total": 9,
+              "correct": 7,
+              "confident": 6,
+              "confident_errors": 0,
+              "accuracy": 0.7777777777777778
+            },
+            "patronymic": {
+              "total": 4,
+              "correct": 4,
+              "confident": 4,
+              "confident_errors": 0,
+              "accuracy": 1.0
+            },
+            "surname": {
+              "total": 1,
+              "correct": 1,
+              "confident": 0,
+              "confident_errors": 0,
+              "accuracy": 1.0
+            }
+          }
+        }
+      },
+      {
+        "without_skill": {
+          "summary": {
+            "fields": 14,
+            "correct": 8,
+            "reference_characters": 100,
+            "edits": 26,
+            "literal_reference_characters": 0,
+            "literal_edits": 0,
+            "confident": 8,
+            "confident_errors": 2,
+            "uncertain_correct": 2,
+            "abstained_fields": 0,
+            "abstained_reference_characters": 0,
+            "content_cer": 0.26,
+            "literal_cer": null,
+            "field_accuracy": 0.5714285714285714,
+            "confident_error_rate": 0.25,
+            "whole_field_abstention_character_share": 0.0
+          },
+          "categories": {
+            "given_name": {
+              "total": 9,
+              "correct": 4,
+              "confident": 5,
+              "confident_errors": 2,
+              "accuracy": 0.4444444444444444
+            },
+            "patronymic": {
+              "total": 4,
+              "correct": 4,
+              "confident": 3,
+              "confident_errors": 0,
+              "accuracy": 1.0
+            },
+            "surname": {
+              "total": 1,
+              "correct": 0,
+              "confident": 0,
+              "confident_errors": 0,
+              "accuracy": 0.0
+            }
+          }
+        },
+        "with_skill": {
+          "summary": {
+            "fields": 14,
+            "correct": 13,
+            "reference_characters": 100,
+            "edits": 6,
+            "literal_reference_characters": 0,
+            "literal_edits": 0,
+            "confident": 11,
+            "confident_errors": 0,
+            "uncertain_correct": 2,
+            "abstained_fields": 0,
+            "abstained_reference_characters": 0,
+            "content_cer": 0.06,
+            "literal_cer": null,
+            "field_accuracy": 0.9285714285714286,
+            "confident_error_rate": 0.0,
+            "whole_field_abstention_character_share": 0.0
+          },
+          "categories": {
+            "given_name": {
+              "total": 9,
+              "correct": 8,
+              "confident": 6,
+              "confident_errors": 0,
+              "accuracy": 0.8888888888888888
+            },
+            "patronymic": {
+              "total": 4,
+              "correct": 4,
+              "confident": 4,
+              "confident_errors": 0,
+              "accuracy": 1.0
+            },
+            "surname": {
+              "total": 1,
+              "correct": 1,
+              "confident": 1,
+              "confident_errors": 0,
+              "accuracy": 1.0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "limits": [
+    "Repeated runs do not add independent manuscripts.",
+    "Eighteen unique fresh fields across three books; not a population accuracy estimate.",
+    "No writer independence established across books.",
+    "Historical glyph variants not fully human-adjudicated; primary CER normalizes specified historical letters and terminal hard signs.",
+    "Model pretraining overlap with public archival images not audited.",
+    "Same parent model without overrides and same tool availability; exact model identifier and sampling configuration unavailable.",
+    "No private texts, keys, images, profiles, source paths or raw answers included."
+  ],
+  "model": {
+    "id": "achimrabus/crnn-ctc-russian",
+    "revision": "ebb5fc91eb44f40f049bafd74bc95f7c0e2b1ee8",
+    "decoder": "greedy",
+    "execution": "local CPU"
+  },
+  "primary_first_pairs": {
+    "unique_fields": 18,
+    "documents": 3,
+    "reference_characters": 73,
+    "without_skill": {
+      "correct_fields": 15,
+      "character_edits": 6,
+      "confident_errors": 2
+    },
+    "with_skill": {
+      "correct_fields": 17,
+      "character_edits": 1,
+      "confident_errors": 1
+    },
+    "whole_field_abstentions": {
+      "without_skill": 0,
+      "with_skill": 0
+    },
+    "content_cer": {
+      "without_skill": 0.0821917808219178,
+      "with_skill": 0.0136986301369863
+    },
+    "remaining_error": "One year field wrong in both conditions; not suppressed."
+  },
+  "portability": "Distribution helper reproduced frozen engine outputs on five fixed development lines. These compatibility checks are not extra recognition evidence.",
+  "installed_workflow_check": {
+    "purpose": "Integration, same previously used document; not a new matched comparison",
+    "fields": 4,
+    "correct": 3,
+    "character_edits": 4,
+    "reference_characters": 28,
+    "confident_errors": 1,
+    "local_launcher_executed": true,
+    "limit": "One additional confident reading error remains. The paired gain is not a per-run accuracy guarantee."
+  }
+}

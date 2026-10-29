@@ -6,7 +6,7 @@ A skill for reading and transcribing Russian handwriting across historical perio
 
 The first development and evaluation stage covers **1850–1950**: parish registers, revision lists, civil records, letters and administrative documents. Coverage will expand with dated examples and evaluations; universal scope does not imply validated accuracy for every period.
 
-**Version 0.2.0 — working reading skill with a small reviewed reference library. A first paired pilot did not demonstrate recognition improvement.** This is not a trained handwriting model or a completed reference atlas.
+**Version 0.3.0 — optional, fully local historical-line HTR.** On a small private matched target set (18 fields, three archival documents), first-pair character errors fell from 6 to 1 on 73 normalized characters; confident errors fell from 2 to 1. Exploratory evidence, not general accuracy validation. Repeated runs and all failures are reported in `evals/results/2026-10-30-target-local-htr/summary.json`. Version 0.2.0 alone remains unproven as an improvement.
 
 ## What it does
 

@@ -61,3 +61,11 @@ Unit tests verify metric arithmetic and integrity checks only. The first paired 
 it does not demonstrate an improvement.
 
 Completed run keys may be published with their results, after retirement from blind use. Future readers must receive neither those keys nor same-document/hand references.
+
+## Private target-corpus comparison
+
+Keep private images, keys, writer profiles, crops and raw answers outside the public checkout. Use fresh readers with identical images, requests, model selection and available tools. Freeze candidate, keys and document-level splits before reading. Same-hand independence must be established or explicitly left unknown. Give the baseline the same optional local engine; the skill condition changes instructions, not tool access.
+
+`python3 scripts/score_reading.py KEYS_JSON RUN_JSON --output LOCAL_SCORE_JSON` compares separately held human keys with exact saved responses. `--details` includes private text and is for local use only. Missing readings count as deletions. Confidence and unreadable metadata are separate from recognized text. Main content CER normalizes NFC, whitespace, historical і/ѣ/ѳ and ё, and terminal word hard signs. Literal CER uses only explicitly adjudicated literal keys. Whole-field abstention share does not measure internal unmarked gaps. Report given names, patronymics, surnames, dates and ages separately, including confident errors.
+
+Repetitions characterize variation on the same documents; they do not increase the independent corpus size. A consumed holdout becomes regression material for later candidates. Preserve failures and disclose any post-result key adjudication equally for both conditions. An aggregate result cannot establish a generally reliable transcription system. See `results/2026-10-30-target-local-htr/summary.json` for the current limited target experiment.

@@ -38,3 +38,16 @@ on 2026-10-29; that review covers only their literal text, not entire source pag
 legal determination for every jurisdiction.
 
 The current review status of the prose region on PDF page 11 is recorded separately in its sample JSON.
+
+## Optional local historical-line recognizer
+
+The optional helper loads external model weights from `achimrabus/crnn-ctc-russian`,
+revision `ebb5fc91eb44f40f049bafd74bc95f7c0e2b1ee8`, curated by Achim Rabus.
+Model card: https://huggingface.co/achimrabus/crnn-ctc-russian
+The model card identifies the weights as Apache-2.0. Weights, training data and
+Python runtime dependencies are not bundled. The inference helper implements the
+CNN/BiLSTM/CTC architecture described by Puigcerver (2017):
+https://www.jpuigcerver.net/pubs/jpuigcerver_icdar2017.pdf
+
+Model probabilities are not calibrated probabilities of a correct archival reading.
+Validation numbers from its model card are not measurements on the user's corpus.
